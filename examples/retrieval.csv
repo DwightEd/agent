@@ -1,0 +1,25 @@
+query_id,query,document,relevant
+q1,retrieval evaluation,Retrieval evaluation measures ranking quality with relevance labels,1
+q1,retrieval evaluation,Evaluation of cooking temperatures and food storage,0
+q1,retrieval evaluation,Retrieval retrieval retrieval systems use relevance evaluation on held out queries,1
+q1,retrieval evaluation,Image generation uses diffusion models,0
+q2,language model hallucination,Language model hallucination can include unsupported factual claims,1
+q2,language model hallucination,The language of this document is English and the model is a toy car,0
+q2,language model hallucination,Hallucination detection evaluates unsupported language model output,1
+q2,language model hallucination,Database backups preserve application records,0
+q3,database backup,SQLite supports consistent online database backup operations,1
+q3,database backup,Backup backup backup power supplies are installed near a database server,0
+q3,database backup,Database restoration should be tested against a saved backup,1
+q3,database backup,Neural attention assigns weights to tokens,0
+q4,query ranking,Query ranking orders candidate documents by relevance scores,1
+q4,query ranking,Ranking sports teams involves a different query from document retrieval,0
+q4,query ranking,BM25 scores terms to rank documents for a query,1
+q4,query ranking,Encrypted cookies help protect user sessions,0
+q5,semantic search,Semantic search represents meaning in dense vectors,1
+q5,semantic search,Search search search engines sometimes mention semantic in marketing copy,0
+q5,semantic search,Embedding similarity supports semantic retrieval beyond exact word search,1
+q5,semantic search,Automatic report generation uses source citations,0
+q6,source evidence,Source evidence must support the scope of a factual claim,1
+q6,source evidence,Source source source code mentions evidence only as a variable name,0
+q6,source evidence,Quoted source text is evidence that still needs semantic review,1
+q6,source evidence,Disk capacity affects database maintenance,0

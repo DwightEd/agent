@@ -1,0 +1,18 @@
+services:
+  researchops:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.openai.com/v1}
+      LLM_MODEL: ${LLM_MODEL:-gpt-4.1-mini}
+      APP_HOSTS: ${APP_HOSTS:-localhost,127.0.0.1}
+      COOKIE_SECURE: ${COOKIE_SECURE:-0}
+      BOOTSTRAP_TOKEN: ${BOOTSTRAP_TOKEN:?Set BOOTSTRAP_TOKEN in .env for initial setup}
+      ALLOW_REGISTRATION: ${ALLOW_REGISTRATION:-0}
+    volumes:
+      - researchops_data:/app/data
+    restart: unless-stopped
+volumes:
+  researchops_data:

@@ -1,0 +1,2 @@
+# Python 3.10+ standard library is sufficient for the core app, demo and tests.
+# Optional PDF import: pip install -r requirements-pdf.txt
